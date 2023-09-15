@@ -17,7 +17,7 @@ class KeyboardBloc {
 
   KeyboardUtils get keyboardUtils => _keyboardUtils;
 
-  int _idKeyboardListener;
+  int? _idKeyboardListener;
 
   void start() {
     _idKeyboardListener = _keyboardUtils.add(
@@ -50,7 +50,7 @@ class _MyAppState extends State<MyApp> {
 
   double tempHeight = 0;
 
-  int tempId;
+  int? tempId;
 
   @override
   void initState() {
