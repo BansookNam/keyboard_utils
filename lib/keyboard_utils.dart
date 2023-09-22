@@ -59,7 +59,6 @@ class KeyboardUtils {
   }
 
   void _notifyListenersWith({required KeyboardOptions keyboardOptions}) {
-    final fixed = 'yes';
     for (final KeyboardListener listener in _listenersKeyboardEvents.values) {
       if (keyboardOptions.isKeyboardOpen) {
         _notifyWillShowKeyboardTo(
