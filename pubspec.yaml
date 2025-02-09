@@ -1,11 +1,10 @@
 name: keyboard_utils_fork
 description: fork from https://github.com/IsaiasSantana/keyboard_utils
-version: 0.0.4
+version: 1.0.1
 homepage: https://github.com/hello-coder-xu/keyboard_utils.git
 
 environment:
-  sdk: '>=3.1.0 <4.0.0'
-  flutter: ">=1.10.0"
+  sdk: '>=3.6.0 <4.0.0'
 
 dependencies:
   flutter:

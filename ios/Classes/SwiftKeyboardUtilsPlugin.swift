@@ -1,13 +1,6 @@
 import Flutter
 import UIKit
 
-//
-//  SwiftKeyboardUtilsPlugin.swift
-//  keyboard_utils
-//
-//  Created by Isaías Santana on 25/10/19.
-//
-
 public class SwiftKeyboardUtilsPlugin: NSObject, FlutterPlugin ,FlutterStreamHandler {
     private var eventSink: FlutterEventSink?
     private var isKeyboardOpen = false
